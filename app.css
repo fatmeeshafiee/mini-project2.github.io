@@ -1,0 +1,121 @@
+html{
+    box-sizing: border-box;
+    
+}
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+    margin: 0;
+}
+body{
+    background-color: #080710;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   
+}
+input,button{
+    font-family: inherit;
+    border: none;
+    outline: none;
+}
+.wrapper{
+
+    width: 400px;
+    position: relative;
+}
+.shape{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.shape-one{
+    background: linear-gradient(#0D47A1,#42A5F5) ;
+    top: -106px;
+    left:-80px;
+}
+.shape-two{
+    background: linear-gradient(45deg,#E65100,#FFA726);
+    bottom: -90px;
+    right: -60px;
+}
+.form{
+    width: 100%;
+    height: 100%;
+    padding: 50px 35px 35px 35px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255,0.13) ;
+    color: #fff;
+    background-color: rgb(255, 255, 255,0.13);
+    box-shadow:0 0 40px rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+}
+.header{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.username{
+    margin-bottom: 26px;
+}
+
+.box_name{
+    font-size: 16px;
+    font-weight: bold;
+}
+.box_placeholder{
+    font-size: 14px;
+    background-color: rgba(225, 225, 225, 0.07);
+    height: 50px;
+    font-weight: 300;
+    display: block;
+    padding: 0 10px;
+    width: 100%;
+    margin-top: 8px;
+    color: #fff;
+    border-radius: 4px;
+}
+.box_placeholder::placeholder{
+    color: #fff;
+}
+.login{
+    background-color: #fff;
+    color: #080710;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    margin-top: 46px;
+    font-weight: bold;
+}
+.login:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.703);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
